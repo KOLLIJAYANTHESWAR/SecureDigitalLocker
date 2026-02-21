@@ -85,14 +85,12 @@
         </dependency>
 
         <!-- Optional: H2 for Dev Testing -->
-        <!-- Uncomment if needed -->
-        <!--
+        <!-- H2 Database for CI Testing -->
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
-            <scope>runtime</scope>
+            <scope>test</scope>
         </dependency>
-        -->
 
         <!-- Test -->
         <dependency>
