@@ -1,0 +1,36 @@
+# =========================
+# Maven
+# =========================
+/target/
+*.log
+
+# =========================
+# IDE (Eclipse / VS Code / IntelliJ)
+# =========================
+.metadata/
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# App Config (DO NOT PUSH)
+# =========================
+src/main/resources/application.properties
+
+# =========================
+# Runtime generated content
+# =========================
+uploads/
+test.txt
+build_log.txt
+
+# =========================
+# Environment
+# =========================
+.env
