@@ -34,3 +34,9 @@ build_log.txt
 # Environment
 # =========================
 .env
+
+# Eclipse
+.classpath
+.project
+.factorypath
+.settings/
